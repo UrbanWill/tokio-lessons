@@ -64,7 +64,6 @@ async fn main() {
 
     // Spawn a task to collect and print results from the channel
     handles.push(tokio::spawn(async move {
-        // Collect and print results as they arrive
         loop {
             let Some(result) = rx.recv().await else {
                 break;
