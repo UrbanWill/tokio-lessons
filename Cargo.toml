@@ -41,6 +41,11 @@ name = "hw4"
 path = "src/assignment-4.rs"
 
 [[bin]]
+name = "res4"
+path = "src/exercises/exercise-4.rs"
+
+
+[[bin]]
 name = "hw5"
 path = "src/assignment-5.rs"
 
