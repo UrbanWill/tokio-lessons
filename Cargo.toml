@@ -50,6 +50,10 @@ name = "hw5"
 path = "src/assignment-5.rs"
 
 [[bin]]
+name = "res5"
+path = "src/exercises/exercise-5.rs"
+
+[[bin]]
 name = "hw6"
 path = "src/assignment-6.rs"
 
